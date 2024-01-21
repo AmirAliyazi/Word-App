@@ -1,0 +1,160 @@
+
+
+
+body{
+    background-color: #c6eaea;
+}
+
+.container{
+    padding: 1rem 2rem;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0);
+
+}
+
+
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+
+.btn{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.btn svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+#svg{
+    width: 2.5rem;
+    height: 2.5rem;
+    pointer-events: none;
+}
+
+.b-text , .sub-text, .sup-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.sub-text , .sup-text{
+    font-size: 24px;
+}
+
+.buttons{
+    width: 100%;
+    background-color: #f1f1f1;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.dropdowns , .color-input{
+    display: flex;
+}
+
+.dropdowns{
+    margin-left: 2rem;
+    gap: 1rem;
+}
+
+.color-input{
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+#tag , #font-face , #number{
+    background-color: #32aef1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: none;
+    height: 3rem;
+}
+
+#tag{
+    font-size: 30px;
+}
+
+#font-face{
+    font-size: 24px;
+}
+
+#number{
+    font-size: 20px;
+}
+
+#tag option , #font-face option , #number option{
+    background-color: #9ad7de;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+#control-font-btn , #control-highlight-btn{
+    width:6rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: none;
+}
+
+#control-highlight-btn::-webkit-color-swatch , #control-font-btn::-webkit-color-swatch{
+    border-radius: 50%;
+    border: none;
+}
+
+.font-color , .highlight-color{
+    display: flex;
+    align-items: center;
+}
+
+.font-color label , .highlight-color label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#content{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    background-color: #f1f1f1;
+    margin-top: 0.5rem;
+    border-radius: 30px;
+    outline: none;
+    min-height: 670px;
+}
+
+.line-on-link{
+    width: 40px;
+    height: 3px;
+    background-color: #212121;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 43%;
+    left: 21%;
+}
+
+.unlink-btn{
+    position: relative;
+}
+
+
+
